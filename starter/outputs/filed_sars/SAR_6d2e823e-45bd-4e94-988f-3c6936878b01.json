@@ -1,0 +1,45 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_6d2e823e-45bd-4e94-988f-3c6936878b01",
+    "filing_date": "2026-03-14T14:43:47.685763",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Cindy Clayton",
+    "customer_id": "CUST_0057",
+    "address": "08330 Robert Stravenue, Garciaberg, AL 72636",
+    "customer_since": "2020-05-26",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Cindy Clayton, DOB 1961-08-31, residing at 08330 Robert Stravenue, Garciaberg, AL, engaged in suspicious structuring activities. From 2025-07-31 to 2025-08-02, multiple ATM withdrawals and cash deposits were made just below $10,000, including $7,491.44 and $5,774.15 withdrawals, and $6,933.66 deposit at Branch_Eastside_Center. These transactions suggest an attempt to evade CTR filing requirements. Clayton's accounts, CUST_0057_ACC_1 and CUST_0057_ACC_3, show high transaction frequency inconsistent with her profile as an applications developer. The activity aligns with structuring indicators, warranting SAR filing under 31 CFR 1020.320.",
+    "key_indicators": [
+      "Multiple ATM withdrawals just below $10,000",
+      "High frequency of transactions around $5,000-$7,000"
+    ],
+    "ai_reasoning": "Numerous transactions just below $10,000, particularly on 2025-07-31 and 2025-08-01, suggest deliberate structuring to avoid reporting thresholds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 81,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "9b197ce4-3075-4bab-b93c-febdcf4b918d",
+    "processing_date": "2026-03-14T14:43:47.685763",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

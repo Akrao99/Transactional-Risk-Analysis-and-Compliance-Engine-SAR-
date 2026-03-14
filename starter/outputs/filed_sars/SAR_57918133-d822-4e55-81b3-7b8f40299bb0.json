@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_57918133-d822-4e55-81b3-7b8f40299bb0",
+  "sar_metadata": {
+    "sar_id": "SAR_57918133-d822-4e55-81b3-7b8f40299bb0",
+    "filing_date": "2026-03-14T15:13:34.238461",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Jacqueline Rodriguez",
+    "customer_id": "CUST_0111",
+    "address": "49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",
+    "customer_since": "2022-02-27",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Jacqueline Rodriguez, DOB 2001-02-01, residing at 49331 Lewis Views Apt. 516, Lake Maryshire, DE, engaged in suspicious activity from 2025-07-29 to 2025-07-31. Multiple wire transfers totaling $49,517.51 were executed from accounts CUST_0111_ACC_1 and CUST_0111_ACC_2. These transactions are inconsistent with her occupation as a conservation officer and reported annual income of $306,379. The high volume and frequency of these transactions suggest potential money laundering activities. The activity was flagged due to its inconsistency with her financial profile and occupation. Filing under 31 CFR 1020.320 and 12 CFR 21.11 for suspected money laundering.",
+    "key_indicators": [
+      "High volume of outgoing wire transfers",
+      "Inconsistent with occupation and income"
+    ],
+    "ai_reasoning": "STEP 1: High-risk customer with significant income and active accounts. STEP 2: Large outgoing wire transfers totaling over $49,000 in a short period, inconsistent with occupation. STEP 3: BSA/AML regulations require SAR for potential money laundering. STEP 4: High confidence due to volume and frequency of suspicious transactions. STEP 5: Classification as Money_Laundering due to layering of funds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 91,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "910a81ce-5ddd-4a1e-a171-de15f09d6cfe",
+    "processing_date": "2026-03-14T15:13:34.238461",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

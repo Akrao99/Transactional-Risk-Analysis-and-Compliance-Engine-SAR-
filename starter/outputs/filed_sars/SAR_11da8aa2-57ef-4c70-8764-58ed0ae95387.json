@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_11da8aa2-57ef-4c70-8764-58ed0ae95387",
+  "sar_metadata": {
+    "sar_id": "SAR_11da8aa2-57ef-4c70-8764-58ed0ae95387",
+    "filing_date": "2026-03-14T14:50:43.156401",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Patrick Williams",
+    "customer_id": "CUST_0118",
+    "address": "PSC 1449, Box 1476, APO AA 87103",
+    "customer_since": "2021-09-05",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Patrick Williams, DOB 1998-01-09, residing at PSC 1449, Box 1476, APO AA 87103, engaged in suspicious structuring activity from 2025-02-05 to 2025-08-04. Multiple cash deposits and withdrawals were made just below $10,000, including $7,212.80 on 2025-08-03 and $7,762.48 on 2025-08-02 at Branch Downtown Main. Total transaction volume of $222,070.26 is inconsistent with his occupation as a midwife and reported annual income of $104,667. Accounts involved: CUST_0118_ACC_1 and CUST_0118_ACC_2. Activity suggests potential structuring to evade CTR requirements. Filed under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Multiple cash deposits/withdrawals below $10,000",
+      "High transaction volume vs income"
+    ],
+    "ai_reasoning": "Numerous cash deposits and withdrawals just below $10,000, indicative of structuring. High transaction volume inconsistent with midwife occupation and income."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 85,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "153539e2-bc44-42cf-a967-b7bd7060a68e",
+    "processing_date": "2026-03-14T14:50:43.156401",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_ba6474bb-94b4-4f01-be7f-fe9d2532fa4a",
+  "sar_metadata": {
+    "sar_id": "SAR_ba6474bb-94b4-4f01-be7f-fe9d2532fa4a",
+    "filing_date": "2026-03-14T15:13:57.289262",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Tracy Lewis",
+    "customer_id": "CUST_0053",
+    "address": "8016 Nicole Stream Suite 650, Williamsside, ID 48017",
+    "customer_since": "2024-05-11",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.95,
+    "narrative": "Tracy Lewis, DOB 1966-10-26, residing at 8016 Nicole Stream Suite 650, Williamsside, ID, and employed as a nurse, conducted multiple cash deposits just below $10,000 at various branches from 2025-07-25 to 2025-07-31. Deposits include $9,238.15 at University District, $9,445.01 at Southpark Ave, and $9,915.61 at Southpark Ave, among others. This pattern suggests structuring to evade CTR requirements, inconsistent with her occupation and income profile. Account IDs: CUST_0053_ACC_1, CUST_0053_ACC_2, CUST_0053_ACC_3. Filing under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Multiple cash deposits just below $10,000",
+      "Frequent deposits over consecutive days"
+    ],
+    "ai_reasoning": "Multiple cash deposits just below $10,000 within a short period suggest structuring to avoid reporting thresholds. The customer is a nurse, which does not align with frequent large cash deposits."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 78,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "96fc7701-eef3-4c64-ae58-cf1f9f4ceb86",
+    "processing_date": "2026-03-14T15:13:57.289262",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

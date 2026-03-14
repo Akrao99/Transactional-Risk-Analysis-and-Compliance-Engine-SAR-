@@ -1,0 +1,47 @@
+{
+  "sar_id": "SAR_8f902620-01b7-4d54-ab72-3587fb55feda",
+  "sar_metadata": {
+    "sar_id": "SAR_8f902620-01b7-4d54-ab72-3587fb55feda",
+    "filing_date": "2026-03-14T14:51:14.425859",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Jacqueline Rodriguez",
+    "customer_id": "CUST_0111",
+    "address": "49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",
+    "customer_since": "2022-02-27",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Jacqueline Rodriguez, DOB 2001-02-01, residing at 49331 Lewis Views Apt. 516, Lake Maryshire, DE, engaged in suspicious activity from 2025-02-05 to 2025-08-01. A $76,517.25 incoming wire on 2025-07-29 was followed by outgoing wires totaling $49,517.51 on 2025-07-30 and 2025-07-31 from accounts CUST_0111_ACC_1 and CUST_0111_ACC_2. These transactions are inconsistent with her occupation as a conservation officer. The rapid movement and large volume of funds suggest money laundering. Filed under 31 CFR 1020.320 and 12 CFR 21.11 due to high-risk rating and transaction patterns.",
+    "key_indicators": [
+      "High-risk rating",
+      "Large incoming and outgoing wires",
+      "Rapid movement of funds"
+    ],
+    "ai_reasoning": "STEP 1: High-risk rating, high volume of transactions, large incoming wire followed by multiple large outgoing wires. STEP 2: Rapid movement of funds, large transactions inconsistent with occupation. STEP 3: BSA/AML regulations suggest SAR filing. STEP 4: High confidence due to volume and nature of transactions. STEP 5: Money laundering due to layering of funds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 82,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "1d46140c-0529-476f-b5fa-e494a6bf8f69",
+    "processing_date": "2026-03-14T14:51:14.425859",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

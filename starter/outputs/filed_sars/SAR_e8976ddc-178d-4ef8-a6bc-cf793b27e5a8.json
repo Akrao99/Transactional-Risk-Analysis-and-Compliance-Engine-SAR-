@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_e8976ddc-178d-4ef8-a6bc-cf793b27e5a8",
+  "sar_metadata": {
+    "sar_id": "SAR_e8976ddc-178d-4ef8-a6bc-cf793b27e5a8",
+    "filing_date": "2026-03-14T14:42:10.288782",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Jacqueline Rodriguez",
+    "customer_id": "CUST_0111",
+    "address": "49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",
+    "customer_since": "2022-02-27",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Jacqueline Rodriguez, DOB 2001-02-01, residing at 49331 Lewis Views Apt. 516, Lake Maryshire, DE, engaged in suspicious activity from 2025-02-05 to 2025-08-01. High volume of large wire transfers totaling $76,517.25 on 2025-07-29 and multiple debits totaling $49,517.51 on 2025-07-30 and 2025-07-31 were noted. Funds moved rapidly across accounts CUST_0111_ACC_1 and CUST_0111_ACC_2, inconsistent with her profile as a conservation officer. Activity suggests potential money laundering through layering. Accounts involved: CUST_0111_ACC_1, CUST_0111_ACC_2. Filed under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Rapid movement of funds",
+      "High volume of large wire transfers"
+    ],
+    "ai_reasoning": "High volume of large wire transfers, rapid movement of funds, and high-risk rating suggest potential layering of illicit funds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 79,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "a1f299ce-003f-4ec3-abd4-98bfba91f8dd",
+    "processing_date": "2026-03-14T14:42:10.288782",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

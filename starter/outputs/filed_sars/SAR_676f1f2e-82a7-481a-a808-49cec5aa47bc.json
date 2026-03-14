@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_676f1f2e-82a7-481a-a808-49cec5aa47bc",
+  "sar_metadata": {
+    "sar_id": "SAR_676f1f2e-82a7-481a-a808-49cec5aa47bc",
+    "filing_date": "2026-03-14T15:14:04.961530",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Patrick Williams",
+    "customer_id": "CUST_0118",
+    "address": "PSC 1449, Box 1476, APO AA 87103",
+    "customer_since": "2021-09-05",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Patrick Williams, DOB 1998-01-09, engaged in structuring activities from 2025-08-02 to 2025-08-04. Multiple cash deposits totaling $24,998.77 and withdrawals totaling $18,688.54 were made via ATM at branches Downtown Main, Westside Plaza, and Northgate Mall. Transactions were structured below $10,000 to evade reporting requirements, inconsistent with his occupation as a midwife and annual income of $104,667. Account IDs: CUST_0118_ACC_1 and CUST_0118_ACC_2. Activity suggests intent to avoid CTR filing. Filed under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Multiple ATM deposits and withdrawals below $10,000",
+      "Frequent transactions over a short period"
+    ],
+    "ai_reasoning": "Multiple cash deposits and withdrawals below $10,000 on consecutive days suggest structuring. The customer has a medium risk rating, and the transaction amounts are inconsistent with the customer's occupation and income."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 76,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "c992a82e-e2d7-4e2f-b5ab-a0500422762b",
+    "processing_date": "2026-03-14T15:14:04.961530",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

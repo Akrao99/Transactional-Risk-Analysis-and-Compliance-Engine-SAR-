@@ -1,0 +1,36 @@
+# Environment and secrets (never commit real API keys)
+.env
+.env.local
+env.txt
+*.env
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Testing and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Project-specific (optional: uncomment if you don't want to track)
+# starter/outputs/

@@ -1,0 +1,46 @@
+{
+  "sar_metadata": {
+    "sar_id": "SAR_25d9b1b6-d3f0-4f43-94a3-a2d29195cd70",
+    "filing_date": "2026-03-14T14:43:40.204831",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Michael Stanley",
+    "customer_id": "CUST_0062",
+    "address": "230 Tiffany Mountain Suite 863, South Michael, KY 25205",
+    "customer_since": "2022-04-01",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Michael Stanley, DOB 1978-07-24, operational investment banker, exhibited suspicious activity from 2025-02-03 to 2025-08-01. Despite an annual income of $128,868, his accounts showed $380,633.78 in transactions, including a $98,090.16 wire credit on 2025-07-27 and multiple large wire debits totaling $71,182.08 on 2025-07-28 and 2025-07-29. These transactions suggest possible money laundering through layering, given the high volume and rapid fund movement. Accounts involved: CUST_0062_ACC_1 and CUST_0062_ACC_3. Activity occurred across various branches and electronic platforms. Filed under BSA 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "High transaction volume",
+      "Large outgoing wire transfers",
+      "Rapid movement of funds"
+    ],
+    "ai_reasoning": "Customer's income is $128,868, but the account shows high transaction volumes and large wire transfers. Rapid movement of funds with multiple outgoing wire transfers in a short period suggests layering. No transactions just below $10,000, reducing structuring suspicion."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 83,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "7e00c6d1-54c9-4eb1-aa12-c36a7e5d005b",
+    "processing_date": "2026-03-14T14:43:40.204831",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

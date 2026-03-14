@@ -1,0 +1,47 @@
+{
+  "sar_id": "SAR_b04b03e8-8624-467b-8cba-0faeaba5c757",
+  "sar_metadata": {
+    "sar_id": "SAR_b04b03e8-8624-467b-8cba-0faeaba5c757",
+    "filing_date": "2026-03-14T14:42:18.896623",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Michael Stanley",
+    "customer_id": "CUST_0062",
+    "address": "230 Tiffany Mountain Suite 863, South Michael, KY 25205",
+    "customer_since": "2022-04-01",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Michael Stanley, DOB 1978-07-24, operational investment banker, engaged in suspicious activity from 2025-02-03 to 2025-08-01. Large wire transfers totaling $98,090.16 were received, followed by outgoing transfers totaling $71,181.48, inconsistent with his $128,868 annual income. Transactions occurred across multiple accounts, including CUST_0062_ACC_1 and CUST_0062_ACC_3, with rapid fund movement indicative of layering. Activity occurred at branches including Northgate Mall and Airport Terminal. These patterns suggest potential money laundering, warranting SAR filing under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Large wire transfers",
+      "Rapid movement of funds",
+      "Amounts inconsistent with income"
+    ],
+    "ai_reasoning": "STEP 1: Customer is an investment banker with medium risk. Multiple accounts with high balances and frequent transactions. STEP 2: Large incoming and outgoing wire transfers, rapid movement of funds, and amounts inconsistent with income. STEP 3: BSA/AML regulations flag large, rapid transactions. STEP 4: High confidence due to volume and nature of transactions. STEP 5: Classification as Money Laundering due to layering and integration patterns."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 77,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "1740fa44-1ccc-4ebc-9ca2-2abf3b482f2e",
+    "processing_date": "2026-03-14T14:42:18.896623",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sar_id": "SAR_eea2b71c-25b8-4433-96aa-fbabcfc43e6a",
+  "sar_metadata": {
+    "sar_id": "SAR_eea2b71c-25b8-4433-96aa-fbabcfc43e6a",
+    "filing_date": "2026-03-14T14:51:29.867474",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Cindy Clayton",
+    "customer_id": "CUST_0057",
+    "address": "08330 Robert Stravenue, Garciaberg, AL 72636",
+    "customer_since": "2020-05-26",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Cindy Clayton, DOB 1961-08-31, residing at 08330 Robert Stravenue, Garciaberg, AL, engaged in suspicious structuring activities from 2025-02-05 to 2025-08-02. Multiple transactions were conducted just below $10,000, including ATM withdrawals of $7,491.44 and $5,774.15 on 2025-07-31 and 2025-08-01, respectively. Frequent cash deposits, such as $6,933.66 on 2025-08-02, were noted. These activities are inconsistent with her profile as an applications developer with an annual income of $163,820. Account IDs: CUST_0057_ACC_1, CUST_0057_ACC_2, CUST_0057_ACC_3. Filing under 31 CFR 1020.320 and 12 CFR 21.11 due to structuring indicators.",
+    "key_indicators": [
+      "Transactions just below $10,000",
+      "Frequent ATM withdrawals and deposits",
+      "High-risk rating"
+    ],
+    "ai_reasoning": "Multiple transactions just below $10,000, frequent ATM withdrawals and deposits, high-risk rating, and significant transaction volume compared to income."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 84,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "b20bddbd-5ec0-43f9-986a-d4f8a994c440",
+    "processing_date": "2026-03-14T14:51:29.867474",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

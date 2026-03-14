@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_36c26a2f-f0b0-4037-8a9a-cc3c38b0c495",
+  "sar_metadata": {
+    "sar_id": "SAR_36c26a2f-f0b0-4037-8a9a-cc3c38b0c495",
+    "filing_date": "2026-03-14T15:13:49.362249",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Cindy Clayton",
+    "customer_id": "CUST_0057",
+    "address": "08330 Robert Stravenue, Garciaberg, AL 72636",
+    "customer_since": "2020-05-26",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Cindy Clayton, DOB 1961-08-31, residing at 08330 Robert Stravenue, Garciaberg, AL, engaged in suspicious structuring activities from 2025-02-05 to 2025-08-02. Multiple ATM withdrawals and cash deposits were made just below $10,000, including $7,491.44 and $5,774.15 withdrawals on 2025-07-31, and a $6,933.66 deposit on 2025-08-02. These transactions were conducted across various branches, including Eastside Center and Northgate Mall. The pattern suggests deliberate structuring to avoid CTR reporting, inconsistent with her profile as an applications developer with an annual income of $163,820. This activity triggers SAR filing under BSA regulations.",
+    "key_indicators": [
+      "Multiple transactions just below $10,000",
+      "High-risk customer profile"
+    ],
+    "ai_reasoning": "STEP 1: Reviewed high-risk customer profile with high transaction volume. STEP 2: Identified multiple transactions just below $10,000, indicating potential structuring. STEP 3: BSA requires SAR for structuring. STEP 4: High risk due to volume and pattern. STEP 5: Classified as Structuring due to deliberate transaction amounts."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 88,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "9c5fd061-5a9a-4b5a-b797-cce2e3784156",
+    "processing_date": "2026-03-14T15:13:49.362249",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

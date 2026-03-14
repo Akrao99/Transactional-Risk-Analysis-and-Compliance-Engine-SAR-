@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_1adec8ff-e49b-42eb-b073-782c29d520dd",
+  "sar_metadata": {
+    "sar_id": "SAR_1adec8ff-e49b-42eb-b073-782c29d520dd",
+    "filing_date": "2026-03-14T14:50:34.180371",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Tracy Lewis",
+    "customer_id": "CUST_0053",
+    "address": "8016 Nicole Stream Suite 650, Williamsside, ID 48017",
+    "customer_since": "2024-05-11",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.95,
+    "narrative": "Tracy Lewis, DOB 1966-10-26, residing at 8016 Nicole Stream Suite 650, Williamsside, ID, engaged in suspicious structuring activity. Between 2025-07-25 and 2025-07-31, Lewis made seven cash deposits totaling $67,569.06, each just below $10,000, across multiple branches including University District and Southpark Ave. These transactions are inconsistent with her profile as a nurse with an annual income of $131,925. The pattern suggests an attempt to evade CTR reporting requirements. Account IDs involved include CUST_0053_ACC_1 and CUST_0053_ACC_2. This activity triggers mandatory SAR filing under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "7 cash deposits $9,000-$9,999",
+      "Potential structuring pattern"
+    ],
+    "ai_reasoning": "STEP 1: Reviewed customer profile, account details, and transactions. Noted high volume of cash deposits just below $10,000. STEP 2: Identified potential structuring pattern with 7 cash deposits between $9,000-$9,999. STEP 3: Mapped to BSA SAR filing requirements. STEP 4: High confidence due to clear structuring indicators. STEP 5: Classified as Structuring."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 89,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "494579de-b431-44a6-81bd-f71e5a99db0a",
+    "processing_date": "2026-03-14T14:50:34.180371",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

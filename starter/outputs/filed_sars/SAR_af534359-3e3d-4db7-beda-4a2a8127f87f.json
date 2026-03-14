@@ -1,0 +1,47 @@
+{
+  "sar_id": "SAR_af534359-3e3d-4db7-beda-4a2a8127f87f",
+  "sar_metadata": {
+    "sar_id": "SAR_af534359-3e3d-4db7-beda-4a2a8127f87f",
+    "filing_date": "2026-03-14T15:14:14.073053",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Jacqueline Rodriguez",
+    "customer_id": "CUST_0111",
+    "address": "49331 Lewis Views Apt. 516, Lake Maryshire, DE 59549",
+    "customer_since": "2022-02-27",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Jacqueline Rodriguez, DOB 2001-02-01, residing at 49331 Lewis Views Apt. 516, Lake Maryshire, DE, engaged in suspicious activity from 2025-07-29 to 2025-07-31. A large incoming wire transfer of $76,517.25 was followed by multiple large outgoing wire transfers totaling $49,517.51. This activity is inconsistent with her occupation as a conservation officer and her reported annual income of $306,379. The transactions occurred through accounts CUST_0111_ACC_1 and CUST_0111_ACC_2. The pattern suggests potential money laundering, triggering mandatory SAR filing under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Large incoming transfer",
+      "Multiple large outgoing transfers",
+      "High customer risk rating"
+    ],
+    "ai_reasoning": "High volume of large outgoing wire transfers ($8,906.70 to $14,019.62) following a large incoming transfer ($76,517.25) suggests layering. High risk rating and income mismatch with transaction volume."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 83,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "903e7afa-03c7-4d27-beff-7e3b3e550d92",
+    "processing_date": "2026-03-14T15:14:14.073053",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

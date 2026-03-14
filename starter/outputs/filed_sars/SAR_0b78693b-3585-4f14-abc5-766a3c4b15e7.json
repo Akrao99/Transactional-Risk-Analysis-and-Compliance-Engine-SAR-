@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_0b78693b-3585-4f14-abc5-766a3c4b15e7",
+  "sar_metadata": {
+    "sar_id": "SAR_0b78693b-3585-4f14-abc5-766a3c4b15e7",
+    "filing_date": "2026-03-14T14:51:22.713121",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Michael Stanley",
+    "customer_id": "CUST_0062",
+    "address": "230 Tiffany Mountain Suite 863, South Michael, KY 25205",
+    "customer_since": "2022-04-01",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Money_Laundering",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Michael Stanley, DOB 1978-07-24, an operational investment banker, conducted suspicious wire transfers totaling $98,090.16 on 2025-07-27 and multiple high-value debits totaling $71,181.08 on 2025-07-28 and 2025-07-29. These transactions, involving counterparties such as Sharp Ltd and Brown and Sons, are inconsistent with his reported annual income of $128,868. The rapid movement of funds across accounts CUST_0062_ACC_1 and CUST_0062_ACC_3 suggests potential money laundering activities. The activity occurred primarily via electronic and wire methods, raising concerns under BSA 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "High-value wire transfers",
+      "Rapid movement of funds"
+    ],
+    "ai_reasoning": "STEP 1: Customer is an investment banker with medium risk. Significant wire transfers with high amounts not aligned with income. STEP 2: Unusual high-value transactions, rapid fund movement, multiple counterparties. STEP 3: BSA SAR filing required. STEP 4: High confidence due to volume and nature of transactions. STEP 5: Money laundering due to layering of funds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 82,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "9850c2d4-d12a-4253-aa6e-0cde40937a67",
+    "processing_date": "2026-03-14T14:51:22.713121",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

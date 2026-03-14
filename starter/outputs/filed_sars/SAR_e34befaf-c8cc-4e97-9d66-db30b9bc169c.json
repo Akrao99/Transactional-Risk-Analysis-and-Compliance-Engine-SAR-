@@ -1,0 +1,47 @@
+{
+  "sar_id": "SAR_e34befaf-c8cc-4e97-9d66-db30b9bc169c",
+  "sar_metadata": {
+    "sar_id": "SAR_e34befaf-c8cc-4e97-9d66-db30b9bc169c",
+    "filing_date": "2026-03-14T14:42:27.488572",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Cindy Clayton",
+    "customer_id": "CUST_0057",
+    "address": "08330 Robert Stravenue, Garciaberg, AL 72636",
+    "customer_since": "2020-05-26",
+    "risk_rating": "High"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.9,
+    "narrative": "Cindy Clayton, DOB 1961-08-31, at 08330 Robert Stravenue, Garciaberg, AL, engaged in potential structuring. On 2025-07-31, multiple ATM withdrawals totaling $16,932.36 and a cash deposit of $5,500.55 were made, all just below $10,000. On 2025-08-02, a $6,933.66 cash deposit was made. These transactions, from accounts CUST_0057_ACC_1 and CUST_0057_ACC_3, suggest attempts to avoid CTR thresholds. Clayton's high-risk rating and transaction volume exceeding her annual income of $163,820 further support suspicion. Activity occurred across branches including Eastside Center and Northgate Mall.",
+    "key_indicators": [
+      "Transactions just below $10,000",
+      "High-risk rating",
+      "Multiple ATM withdrawals"
+    ],
+    "ai_reasoning": "Multiple transactions just below $10,000, especially on 2025-07-31 and 2025-08-02, indicate potential structuring to avoid reporting thresholds. High-risk rating and high transaction volume compared to income support suspicion."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 79,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "445604fd-94b8-433d-a18e-4b839b4af51c",
+    "processing_date": "2026-03-14T14:42:27.488572",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}

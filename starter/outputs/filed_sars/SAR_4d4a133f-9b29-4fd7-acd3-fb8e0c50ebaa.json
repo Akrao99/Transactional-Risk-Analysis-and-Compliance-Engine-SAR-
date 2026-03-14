@@ -1,0 +1,46 @@
+{
+  "sar_id": "SAR_4d4a133f-9b29-4fd7-acd3-fb8e0c50ebaa",
+  "sar_metadata": {
+    "sar_id": "SAR_4d4a133f-9b29-4fd7-acd3-fb8e0c50ebaa",
+    "filing_date": "2026-03-14T14:42:42.205230",
+    "filing_type": "Suspicious Activity Report",
+    "ai_generated": true,
+    "review_status": "human_approved"
+  },
+  "subject_information": {
+    "customer_name": "Patrick Williams",
+    "customer_id": "CUST_0118",
+    "address": "PSC 1449, Box 1476, APO AA 87103",
+    "customer_since": "2021-09-05",
+    "risk_rating": "Medium"
+  },
+  "suspicious_activity": {
+    "classification": "Structuring",
+    "risk_level": "High",
+    "confidence_score": 0.85,
+    "narrative": "Patrick Williams, DOB 1998-01-09, engaged in suspicious structuring activity from 2025-08-02 to 2025-08-04. Multiple cash deposits totaling $21,998.97 and ATM withdrawals totaling $18,688.54 were made across various branches, each transaction just below $10,000. This pattern suggests an attempt to evade CTR reporting requirements. Transactions occurred at Branch_Downtown_Main, Branch_Westside_Plaza, and Branch_Northgate_Mall. Williams' profile as a midwife with an annual income of $104,667 does not align with the volume and nature of these transactions. Account IDs involved include CUST_0118_ACC_1 and CUST_0118_ACC_2. Filing under 31 CFR 1020.320 and 12 CFR 21.11.",
+    "key_indicators": [
+      "Multiple cash deposits below $10,000",
+      "Frequent ATM withdrawals below $10,000"
+    ],
+    "ai_reasoning": "Multiple cash deposits and withdrawals clustered just below $10,000 over a short period, indicating potential structuring to avoid reporting thresholds."
+  },
+  "regulatory_compliance": {
+    "citations": [
+      "31 CFR 1020.320 (BSA SAR Filing)",
+      "12 CFR 21.11 (National Bank SAR)",
+      "FinCEN SAR Instructions"
+    ],
+    "narrative_word_count": 88,
+    "compliance_status": "approved"
+  },
+  "audit_trail": {
+    "case_id": "d446349c-f40f-42ce-a6a6-96957543b173",
+    "processing_date": "2026-03-14T14:42:42.205230",
+    "ai_agents_used": [
+      "RiskAnalyst",
+      "ComplianceOfficer"
+    ],
+    "human_reviewer": "compliance_officer"
+  }
+}
