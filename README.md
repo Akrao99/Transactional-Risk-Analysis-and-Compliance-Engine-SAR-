@@ -22,7 +22,7 @@ CSV Data → Risk Analyst Agent → Human Review → Compliance Officer Agent �
 - **Compliance Officer Agent** — ReACT-style prompting; generates ≤120-word narratives with regulatory citations.
 - **Human-in-the-loop** — Decision gates for compliance; every step is logged.
 
-https://github.com/Akrao99/Transactional-Risk-Analysis-and-Compliance-Engine-SAR-/blob/f168b6aa2bb9f439f333bfce5aae3918554bb19a/starter/SARARCH.png
+![image alt](https://github.com/Akrao99/Transactional-Risk-Analysis-and-Compliance-Engine-SAR-/blob/f168b6aa2bb9f439f333bfce5aae3918554bb19a/starter/SARARCH.png)
 
 ### Why SAR Processing Matters
 
