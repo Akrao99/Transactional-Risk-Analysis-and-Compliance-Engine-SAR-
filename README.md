@@ -117,6 +117,4 @@ Sample data under `data/` includes customers, accounts, and transactions with pa
 - **`docs/prompting_guide.md`** — Chain-of-Thought and ReACT usage.
 - **`docs/regulatory_context.md`** — SAR/BSA context and requirements.
 
-## License
 
-See repository license file.
