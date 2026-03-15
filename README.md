@@ -22,6 +22,8 @@ CSV Data → Risk Analyst Agent → Human Review → Compliance Officer Agent �
 - **Compliance Officer Agent** — ReACT-style prompting; generates ≤120-word narratives with regulatory citations.
 - **Human-in-the-loop** — Decision gates for compliance; every step is logged.
 
+https://github.com/Akrao99/Transactional-Risk-Analysis-and-Compliance-Engine-SAR-/blob/main/starter/SARARCH.png?raw=true
+
 ### Why SAR Processing Matters
 
 - Institutions must file SARs within 30 days of detection; non-compliance carries severe penalties.
